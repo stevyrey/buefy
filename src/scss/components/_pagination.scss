@@ -1,6 +1,7 @@
 .pagination {
     .pagination-next,
     .pagination-previous {
+        text-decoration: none !important;
         padding-left: 0.25em;
         padding-right: 0.25em;
         &.is-disabled {
