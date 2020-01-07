@@ -2,7 +2,7 @@
     <span class="icon" :class="[newType, size]">
         <i
             v-if="!useIconComponent"
-            :class="[newPack, newIcon, newCustomSize, customClass]"/>
+            :class="[newPack, newIcon, newCustomSize, customClass]">{{ this.icon }}</i>
 
         <component
             v-else
