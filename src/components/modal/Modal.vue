@@ -25,14 +25,14 @@
                 <div
                     v-else-if="content"
                     v-html="content"/>
-                <slot v-else/>
-                <button
+                <slot v-else/>           
+            </div>
+            <button
                     type="button"
                     v-if="showX"
                     v-show="!animating"
                     class="modal-close is-large"
                     @click="cancel('x')"/>
-            </div>
         </div>
     </transition>
 </template>
