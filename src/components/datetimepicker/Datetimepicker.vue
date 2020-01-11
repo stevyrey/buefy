@@ -3,7 +3,7 @@
         v-if="!isMobile || inline"
         ref="datepicker"
         v-model="computedValue"
-        v-bind="datepicker"
+        v-bind="$attrs"
         :open-on-focus="openOnFocus"
         :position="position"
         :loading="loading"
